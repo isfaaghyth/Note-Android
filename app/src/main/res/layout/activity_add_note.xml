@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:id="@+id/area_kontrol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/txt_judul"
+                android:layout_height="40dp"
+                android:hint="Judul"
+                android:textSize="12pt"
+                android:textStyle="bold"
+                android:background="@null"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/txt_konten"
+                android:inputType="textMultiLine"
+                android:singleLine="false"
+                android:gravity="top|start"
+                android:textSize="8pt"
+                android:hint="some text in here.."
+                android:background="@null"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
